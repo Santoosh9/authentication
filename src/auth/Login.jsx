@@ -1,12 +1,14 @@
 import React from 'react'
 
+import loginimg from '../assets/login.png'
+
 import { Link } from 'react-router-dom';
 const Login = () => {
   return (
 <>
 
 <div className="min-h-screen flex bg-gray-100">
-      <div className="hidden lg:block lg:w-1/2 bg-cover bg-center" style={{ backgroundImage: 'url(https://source.unsplash.com/random)' }}></div>
+      <div className="hidden lg:block lg:w-1/2 bg-cover bg-center" style={{ backgroundImage: `url(${loginimg})` }}></div>
       <div className="flex items-center justify-center w-full lg:w-1/2 p-8">
         <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-6">
           <h2 className="text-3xl font-bold text-center text-blue-600">Login</h2>
